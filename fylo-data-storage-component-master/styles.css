@@ -1,0 +1,150 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html{
+  font-family: 'Raleway', sans-serif;
+  font-size: 62.5%;
+}
+body {
+  height: 100vh;
+  width: auto;
+  background-color: #0c122c;
+}
+main{
+
+}
+.upper-part{
+  height: 45vh;
+  width: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.upper-part .left-card{
+  background-color: #1e2c69;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 29rem;
+  height: 17rem;
+  padding-left: 3rem;
+  margin-right: 3rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 8rem;
+  border-bottom-right-radius: 1rem;
+  position: relative;
+  top: 8.5rem;
+} 
+.left-card .logo-container{
+  padding-bottom: 6.5rem;
+  height: 3.5rem;
+  width: 11rem;
+}
+.logo-container .logo{
+  height: inherit;
+  width: inherit;
+}
+.left-card .icons{
+  display: flex;
+  justify-content: space-between;
+  width: 20rem;
+  height: 4rem;
+  padding-right: 5rem;
+}
+figure div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.8rem;
+  width: 4.2rem;
+  height: 4rem;
+  background-color: #0d122b;
+}
+figure div .icon-logo{
+  width: 2rem;
+  height: 2.4rem;
+}
+figure div .folder-logo{ 
+  width: 2.4rem;
+  height: 2rem;
+}
+figure div .download-logo{
+  width: 2.4rem;
+  height: 1.6rem;
+}
+.upper-part .right-card{
+  font-weight: 400;
+  color: white;
+  background-color:  #1e2c69;
+  border-radius: 1rem;
+  width: 45rem;
+  height: 12.8rem;
+  position: relative;
+  top: 8.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.consumed-text{
+  height: 1.828rem;
+  width: 38rem;
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 1;
+}
+.consumed-text p span{
+  font-weight: 800;
+}
+.consumption-bar{
+  background-color: #151d49;
+  border-radius: 2rem;
+  height: 2rem;
+  width: 38rem;
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
+  padding-top: 0.15rem;
+  padding-bottom: 0.287rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.percentage-consumed{
+  background-image: linear-gradient(to top right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+  border-radius: 2rem;
+  height: 1.4rem;
+  width: 30.04rem;
+  padding-right: 0.3rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.consumption-bar div span{
+  background-color: white;
+  border-radius: 50%;
+  height: 1rem;
+  width: 1rem;
+}
+.gb-rank{
+  height: 1.828rem;
+  width: 38rem;
+  display: flex;
+  justify-content: space-between;
+}
+.lower-part{
+  height: 53vh;
+  width: inherit;
+}
+.lower-part figure {
+  min-width: 99.8vw;
+  max-width: 99.8vw;
+  height: 54.7vh;
+}
+.lower-part figure img {
+  min-width: inherit;
+  max-width: inherit;
+  height: inherit;
+}
